@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Gamal | Full-Stack .NET Developer & IT Manager</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/P///wD///8A////AP8mMf9/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8////wD///8A////AP8mMf8/P///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/yYx/z////8A////AP///wD/JjH/PyYx/z8mMf8/JjH/P///wD/JjH/P///wD/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8//////wD///8A////AP8mMf8/JjH/P///wD/JjH/P///wD/JjH/P///wD/JjH/P///wD///8A////AP8mMf8//////wD///8A////AP8mMf8/JjH/P///wD/JjH/P///wD/JjH/P///wD/JjH/PyYx/z8mMf8/P///wD/JjH/P/////8A////AP///wD/JjH/PyYx/z///wD/JjH/P///wD/JjH/P///wD/JjH/P///wD///8A////AP8mMf8//////wD///8A////AP8mMf8/JjH/P///wD/JjH/P///wD/JjH/P///wD/JjH/PyYx/z8mMf8/P///wD/JjH/P/////8A////AP///wD/JjH/PyYx/z///wD/JjH/P///wD/JjH/P///wD/JjH/P///wD///8A////AP8mMf8//////wD///8A////AP8mMf8/JjH/P///wD/JjH/P///wD/JjH/P///wD/JjH/PyYx/z8mMf8/P///wD/JjH/P/////8A////AP///wD/JjH/PyYx/z8mMf8/JjH/P///wD/JjH/P///wD/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8//////wD///8A////AP8mMf8/P///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/yYx/z////8A////AP///wD/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/P///wD///8A////AP8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8/JjH/PyYx/z8mMf8////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- زر التبديل بين المظهر الداكن والمضيء -->
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+
+    <!-- القائمة العلوية -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">MG</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي (Hero) -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-img-container">
+                <img src="profile.png" alt="Mohamed Gamal Mahmoud" class="hero-img">
+            </div>
+            <div class="hero-content">
+                <span class="badge">Welcome to my Portfolio</span>
+                <h1>MOHAMED GAMAL MAHMOUD</h1>
+                <h2>Full-Stack .NET Developer | Team Lead | IT Manager</h2>
+                <p class="location">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Ismailia, Egypt
+                </p>
+                                <div class="social-links">
+                    <!-- زر تحميل الـ CV المباشر -->
+                    <a href="CV.pdf" download="Mohamed_Gamal_CV.pdf" class="download-cv-btn" title="Download CV" target="_blank">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4M7 10l5 5 5-5M12 15V3"/></svg>
+                        <span>Download CV</span>
+                    </a>
+                    
+                    <!-- روابط السوشيال ميديا -->
+                    <a href="mailto:mohamedgamalkabeer@gmail.com" title="Email">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </a>
+                    <a href="tel:+201061841129" title="Phone">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/mohamedgamalkabeer" target="_blank" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- قسم النبذة التعريفية -->
+    <section id="about" class="section container">
+        <h3 class="section-title">Professional Summary</h3>
+        <div class="card about-card">
+            <p>Result-oriented <strong>Full-Stack .NET Developer</strong> and <strong>IT Manager</strong> with over 7 years of experience delivering robust desktop, web, and mobile applications. Proven track record as a Team Lead, excels at building highly scalable systems using C#, ASP.NET Core, VB.NET, and SQL Server/MySQL. Expert in accurate system analysis and requirement gathering, significantly reducing project scope creep by 25% and post-deployment client modifications. Combined technical mastery with strategic IT leadership and academic instructing.</p>
+        </div>
+    </section>
+
+    <!-- قسم المهارات التقنية -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h3 class="section-title">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="card skill-card">
+                    <h4>Backend Development</h4>
+                    <div class="tags">
+                        <span>C#</span><span>ASP.NET Core</span><span>ASP.NET Web Forms</span><span>VB.NET</span><span>RESTful APIs</span><span>Web API</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <h4>Frontend Development</h4>
+                    <div class="tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap CSS Layouts</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <h4>Database & Reporting</h4>
+                    <div class="tags">
+                        <span>Microsoft SQL Server</span><span>MySQL</span><span>Entity Framework</span><span>Crystal Reports</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <h4>Mobile Development</h4>
+                    <div class="tags">
+                        <span>Xamarin (Cross-Platform)</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <h4>Core CS Concepts</h4>
+                    <div class="tags">
+                        <span>Data Structures</span><span>Algorithms</span><span>System Analysis & Architecture</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <h4>Leadership & Soft Skills</h4>
+                    <div class="tags">
+                        <span>Team Leadership</span><span>Agile/Scrum</span><span>Requirement Gathering</span><span>Technical Training</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخبرات المهنية -->
+    <section id="experience" class="section container">
+        <h3 class="section-title">Work Experience</h3>
+        <div class="timeline">
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="card timeline-content">
+                    <span class="timeline-date">2024 – Present</span>
+                    <h4>IT Manager</h4>
+                    <h5 class="company">PowerSoft</h5>
+                    <ul>
+                        <li>Direct overall IT operations, infrastructure alignment, and technology strategies supporting business objectives for 3+ major enterprise projects.</li>
+                        <li>Bridge communication gaps between clients and development teams through rigorous, proactive system analysis, reducing initial requirement misunderstanding by 20%.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="card timeline-content">
+                    <span class="timeline-date">2021 – 2024</span>
+                    <h4>Team Lead</h4>
+                    <h5 class="company">PowerSoft</h5>
+                    <ul>
+                        <li>Managed and mentored a team of 6+ developers, leading sprint planning, code reviews, and architectural designs to boost team productivity by 15%.</li>
+                        <li>Successfully delivered 5+ enterprise-grade software products (Web & Desktop) on time and within budget constraints.</li>
+                        <li>Collaborated closely with clients to gather detailed technical specifications, cutting client revision requests by 30% and accelerating delivery timelines.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="card timeline-content">
+                    <span class="timeline-date">2020 – 2021</span>
+                    <h4>Software Developer</h4>
+                    <h5 class="company">PowerSoft</h5>
+                    <ul>
+                        <li>Developed and optimized secure web and desktop applications using ASP.NET, VB.NET, and SQL Server, improving query performance by 20%.</li>
+                        <li>Designed 15+ database schemas, wrote complex stored procedures, and integrated Crystal Reports to deliver actionable business insights.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="card timeline-content">
+                    <span class="timeline-date">2019 – 2020</span>
+                    <h4>Technical Support Engineer</h4>
+                    <h5 class="company">PowerSoft</h5>
+                    <ul>
+                        <li>Resolved 100+ critical software bugs, troubleshooted complex database anomalies, and gathered initial user feedback to optimize the core product roadmap.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="card timeline-content">
+                    <span class="timeline-date">2024 – Present</span>
+                    <h4>Programming Instructor / Lecturer</h4>
+                    <h5 class="company">PowerSoft Academy & Dar Al-Aziz</h5>
+                    <ul>
+                        <li>Teach advanced courses in C#, ASP.NET Core, Databases, and Software Architecture, successfully graduating 80+ aspiring developers into the market.</li>
+                        <li>Mentored dozens of students through graduation projects, reinforcing best practices in clean code, resulting in a 95% project completion rate.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- قسم المشاريع -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h3 class="section-title">Key Projects</h3>
+            
+            <h4 class="project-category-title">1. Enterprise ERP & Management Desktop Systems</h4>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <h5>Hospital Management System</h5>
+                    <p>Designed and deployed a comprehensive healthcare system managing 10+ core modules (HR, Inventory, Finance, Labs, Radiology, Pharmacy). Optimized workflow efficiency by 25%.</p>
+                    <div class="project-tech"><span>VB.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>Restaurant & Catering ERP</h5>
+                    <p>Built a high-traffic restaurant ERP covering HR, Purchasing, Accounting, and advanced analytical reporting, improving stock tracking accuracy by 30%.</p>
+                    <div class="project-tech"><span>VB.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>Core Accounting & Inventory System</h5>
+                    <p>Developed an all-in-one corporate desktop system handling HR, Warehousing, and Sales, reducing end-of-month financial reconciliation time by 40%.</p>
+                    <div class="project-tech"><span>VB.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+            </div>
+
+            <h4 class="project-category-title">2. Specialized Niche Systems</h4>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <h5>Nursery & Mini-School System</h5>
+                    <p>Created an admin application managing student enrollment, tuition, and internal retail sales, digitizing 100% of administrative paperwork.</p>
+                    <div class="project-tech"><span>VB.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>Clinic Management System</h5>
+                    <p>Developed a standalone clinic application for tracking patient histories and dosage printing, reducing patient checkout time by 35%.</p>
+                    <div class="project-tech"><span>VB.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+            </div>
+
+            <h4 class="project-category-title">3. Web & Mobile Applications</h4>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <h5>Cup and Cone E-Commerce Platform</h5>
+                    <p>Developed a customized e-commerce website for "Cup and Cone Ismailiya" restaurant, increasing digital sales conversion by 20% within the first quarter.</p>
+                    <div class="project-tech"><span>ASP.NET Web Forms</span><span>SQL Server</span><span>HTML</span><span>CSS</span><span>JS</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>PowerSoft Academy Platform</h5>
+                    <p>Built the official landing and management website detailing courses and student statistics, attracting 40% more online student registrations.</p>
+                    <div class="project-tech"><span>ASP.NET</span><span>SQL Server</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>Management Reporting Dashboard</h5>
+                    <p>Created a secure web portal for business owners to remotely monitor accounting data via responsive reporting tools.</p>
+                    <div class="project-tech"><span>ASP.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>Mobile Representative Sales App</h5>
+                    <p>Programmed a mobile web portal with real-time truck inventory validation, eliminating stock discrepancies by 98%.</p>
+                    <div class="project-tech"><span>ASP.NET</span><span>SQL Server</span><span>Crystal Reports</span></div>
+                </div>
+                <div class="card project-card">
+                    <h5>Barcode Inventory Mobile App</h5>
+                    <p>Built a cross-platform mobile application for rapid stock counts, accelerating warehouse inventory audits by 50%.</p>
+                    <div class="project-tech"><span>Xamarin</span><span>ASP.NET Web API</span><span>SQL Server</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التعليم والمعلومات الشخصية -->
+    <section id="education" class="section container">
+        <h3 class="section-title">Education & Personal Info</h3>
+        <div class="info-grid">
+            <div class="card info-card">
+                <h4>Education</h4>
+                <p><strong>Bachelor of Computer Science</strong></p>
+                <p class="company">Misr University for Science and Technology (MUST)</p>
+            </div>
+            <div class="card info-card">
+                <h4>Personal Details</h4>
+                <p><strong>Languages:</strong> Arabic (Native) | English (Very Good)</p>
+                <p><strong>Nationality:</strong> Egyptian</p>
+                <p><strong>Hobbies:</strong> Learning Modern Tech Stacks, UI/UX Design</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <p>&copy; 2026 Mohamed Gamal Mahmoud. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
